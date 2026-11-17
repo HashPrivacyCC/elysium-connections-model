@@ -1,0 +1,27 @@
+{
+  "name": "@hashprivacy/elysium-connections-model",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Research reference model of value moving between Hyperliquid, HyperEVM and Hash Privacy on Elysium: canonical rollup messages, a spot transfer leg, shield-on-arrival routes and a relayer fast path. Not a working bridge.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HashPrivacyCC/elysium-connections-model"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
