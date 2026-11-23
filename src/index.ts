@@ -6,3 +6,5 @@ export * from "./bridge.js";
 export * from "./hypercore.js";
 export * from "./pool.js";
 export * from "./plan.js";
+export * from "./fastpath.js";
+export * from "./world.js";
