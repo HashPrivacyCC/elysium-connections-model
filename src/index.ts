@@ -8,3 +8,4 @@ export * from "./pool.js";
 export * from "./plan.js";
 export * from "./fastpath.js";
 export * from "./world.js";
+export * from "./route.js";
