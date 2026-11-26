@@ -18,7 +18,10 @@
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run",
-    "check:dashes": "bash scripts/check-dashes.sh"
+    "check:dashes": "bash scripts/check-dashes.sh",
+    "example:hyperliquid-to-shielded": "npm run --silent build && node dist/examples/hyperliquid-to-shielded.js",
+    "example:shielded-to-hyperevm": "npm run --silent build && node dist/examples/shielded-to-hyperevm.js",
+    "example:fast-path-fallback": "npm run --silent build && node dist/examples/fast-path-fallback.js"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
